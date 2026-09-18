@@ -1,11 +1,20 @@
 # Add comments before you do anything else.
 
 #!/usr/bin/env python3
-# Author:
-# Date:
+# Author: Isaac Burton
+# Date: 18/9/2026
 # Purpose: Create a variable, check its type and print the variable.
 # Usage: python3 lab1a.py
-
+message= "Welcome to PRG 101"
+print(message)
+print(type(message))
+newstring=message+"Python is Future"
+#print(message "Python is future")
+print(newstring)
+x=10
+print(type(x))
+x="Hello"
+print(type(x))
 # TO DO 1: Creating and using varibales
 # create a variable called message.
 # Set the variable to equal to "Welcome to PRG101".
