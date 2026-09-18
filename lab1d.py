@@ -2,11 +2,15 @@
 # Add comments before you do anything else.
 
 #!/usr/bin/env python3
-# Author:
-# Date:
+# Author:Isaac Burton
+# Date:9/18/2026
 # Purpose: Use string methods and f-string formating.
 # Usage: python3 lab1d.py
-
+name="Isaac Burton"
+name=name.upper()
+age=24
+str="How are you {}? Happy {}th birthday!".format(name,age)
+print(str)
 #TO-DO 1:
 #	Create a variable called "name" and assign it the value of your name.
 # Use the string method .upper() to convert the name to upper case.

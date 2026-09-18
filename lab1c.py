@@ -2,8 +2,8 @@
 # Add comments before you do anything else.
 
 #!/usr/bin/env python3
-# Author:
-# Date:
+# Author: Isaac Burton
+# Date: 9/18/2026
 # Purpose: Use string methods and f-string formating.
 # Usage: python3 lab1c.py
 
@@ -12,3 +12,7 @@
 # Create a variable called 'radius' and take its value form user.
 # Convert the variable to integer using int()
 # use the contant pi form math module and compute the area of the circle using the variable 'radius'
+import math
+radius=int(input("please enter the radius of circle"))
+area=math.pi*radius**2
+print("area=",area)
